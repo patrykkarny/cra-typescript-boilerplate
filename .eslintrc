@@ -1,0 +1,51 @@
+{
+  "extends": [
+    "airbnb",
+    "react-app",
+    "prettier",
+    "prettier/react"
+  ],
+  "plugins": [
+    "emotion"
+  ],
+  "rules": {
+    "consistent-return": "off",
+    "emotion/no-vanilla": "error",
+    "emotion/import-from-emotion": "error",
+    "emotion/styled-import": "error",
+    "import/no-extraneous-dependencies": "off",
+    "import/no-unresolved": "off",
+    "import/prefer-default-export": "off",
+    "import/order": ["warn", {
+      "groups": [
+        "builtin",
+        "external",
+        ["parent", "sibling"],
+        "index"
+      ],
+      "newlines-between": "always-and-inside-groups"
+    }],
+    "jsx-a11y/click-events-have-key-events": "off",
+    "jsx-a11y/label-has-associated-control": "off",
+    "jsx-a11y/label-has-for": "off",
+    "lines-between-class-members": "off",
+    "no-console": "warn",
+    "no-debugger": "error",
+    "no-else-return": "warn",
+    "no-nested-ternary": "off",
+    "no-param-reassign": "off",
+    "no-plusplus": "off",
+    "no-return-assign": "off",
+    "no-return-await": "off",
+    "no-sequences": "off",
+    "no-useless-return": "off",
+    "prefer-destructuring": "warn",
+    "react/display-name": "off",
+    "react/jsx-filename-extension": "off",
+    "react/jsx-sort-props": "warn",
+    "react/no-danger": "off",
+    "react/no-unescaped-entities": "off",
+    "react/no-unused-prop-types": "warn",
+    "sort-keys": "warn"
+  }
+}
